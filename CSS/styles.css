@@ -18,3 +18,12 @@
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.container-inputs {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    padding: 5px;
+}
+
+.container-inputs input[type='text']
