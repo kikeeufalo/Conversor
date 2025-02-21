@@ -20,12 +20,18 @@
 }
 
 .container-inputs {
-    display: flex;
-    flex-direction: column;
     background-color: red;
     padding: 5px;
 }
 
 .container-inputs input[type='text'] {
-    
+    padding: 5px;
+    max-width: 300px;
+    display: block;
+}
+
+.container-inputs input[type='button'] {
+    padding: 5px;
+    max-width: 300px;
+    display: block;
 }
