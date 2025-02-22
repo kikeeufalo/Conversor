@@ -24,7 +24,7 @@
     padding: 5px;
 }
 
-.container-inputs input[type='text'],
+.container-inputs input[type='number'],
 .container-inputs input[type='button'] {
     padding: 5px;
     max-width: 400px;
@@ -42,4 +42,5 @@
 }
 
 .resposta {
+    display: none;
 }
