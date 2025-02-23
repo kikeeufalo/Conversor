@@ -40,12 +40,13 @@
     font-weight: 600;
     background-color: rgba(132, 164, 132, 0.703);
     border: none;
-    
+    transition: 0.3s ease-in-out;
 }
 
 .container-inputs input[type='button']:hover {
     cursor: pointer;
     background-color: rgb(94, 131, 94);
+    transform: scale(1.01);
 }
 
 .container-resposta {
