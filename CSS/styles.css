@@ -40,7 +40,11 @@ body {
     letter-spacing: 1px;
 }
 
-.container-inputs input[type='number']:hover {}
+.container-inputs input[type='number']:hover {
+    cursor: text;
+    background-color: rgba(121, 136, 121, 0.179);
+    border: none;
+}
 
 .container-inputs input[type='button'] {
     font-weight: 600;
