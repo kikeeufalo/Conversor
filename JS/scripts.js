@@ -22,6 +22,7 @@ btnConverter.addEventListener('click', function() {
     let n = parseInt(numeros.value)
 
     if (n === '' || isNaN(n)) {
+        telaResposta.style.color = 'rgba(0, 0, 0, 0)'
         return alert('erro, insira um digito valido')
     }else {
         let roman = "";
